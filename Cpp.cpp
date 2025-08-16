@@ -221,7 +221,7 @@ void showPlayerInfo() {
     cout<<"血量"<<my.health<<"   攻击"<<my.damage<<"   防御"<<my.antiDamage<<endl;
     coutFlushDown();
 }
-void showMenu() {
+void showMenu() {//注意写上check Input
     showPlayerInfo();
     cout<<"1、更换武器   2、防具"<<endl;
 
